@@ -1,0 +1,23 @@
+================================================================================
+Algorithm Design and Analysis - Experiment Results
+Yunnan University, Information College, Class of 2024
+================================================================================
+
+Sorting Algorithm Results:
+-----------------------------------------------------------------
+         n        Bubble Sort         Merge Sort         Quick Sort
+--------------------------------------------------------------------
+        10                 42                 22                 19
+       100               4935                542                545
+      1000             499149               8703               9952
+      2000            1998724              19428              21174
+      5000           12481390              55271              59353
+     10000           49989222             120481             131635
+    100000                N/A            1536397            1928671
+
+Conclusions:
+1. Bubble Sort: O(n²) - Verified
+2. Merge Sort: O(n log n) - Verified
+3. Quick Sort: Best practical performance
+4. Greedy is fastest for knapsack but not always optimal
+5. DP guarantees optimal solution but memory intensive
